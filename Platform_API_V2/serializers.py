@@ -9,3 +9,4 @@ class PostSerializer(serializers.ModelSerializer):
         model = Post 
 
         fields = ['id','title','content','created_at','updated_at']
+        ref_name = "platform2_platform_APISerializers"
